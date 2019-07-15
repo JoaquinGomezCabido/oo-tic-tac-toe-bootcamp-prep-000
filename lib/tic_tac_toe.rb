@@ -54,6 +54,7 @@ class TicTacToe
     else
       puts "Please select a position between 1-9"
       input = gets.strip
+      draw?
     end
   end
 
