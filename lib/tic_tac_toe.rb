@@ -74,6 +74,7 @@ class TicTacToe
     WIN_COMBINATIONS.any? do |item|
       if @board[item[0]] == @board[item[1]] && @board[item[1]] == @board[item[2]]
         return item
+      end
     end
   end
 
