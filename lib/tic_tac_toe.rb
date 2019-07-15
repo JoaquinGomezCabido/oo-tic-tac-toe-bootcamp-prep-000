@@ -99,8 +99,12 @@ class TicTacToe
       turn
       draw?
     end
-
-    won? ? puts "Congratulations #{winner}!" : puts "The game ended in a draw"
+      if won?
+        puts "Congratulations #{winner}!"
+      elsif draw?
+        puts "The game ended in a draw"
+      end
+    end
   end
 
 end
