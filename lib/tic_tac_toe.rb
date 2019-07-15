@@ -50,6 +50,7 @@ class TicTacToe
     if valid_move?(index)
       move(index, current_player)
       display_board
+      draw?
     else
       puts "Please select a position between 1-9"
       input = gets.strip
