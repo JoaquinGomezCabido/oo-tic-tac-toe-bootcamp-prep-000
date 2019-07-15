@@ -93,9 +93,7 @@ class TicTacToe
   end
 
   def winner
-    if combo = won?
-      @board[combo[0]]
-    end
+    won? ? @board[won?[0]] : nil
   end
 
   def play
