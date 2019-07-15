@@ -97,6 +97,7 @@ class TicTacToe
   def play
     until over?
       turn
+      draw?
       if won?
         puts "Congratulations #{winner}!"
       elsif draw?
