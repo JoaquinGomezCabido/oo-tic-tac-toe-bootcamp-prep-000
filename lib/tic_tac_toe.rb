@@ -97,12 +97,12 @@ class TicTacToe
   def play
     until over?
       turn
+    end
       if draw?
         puts "The game ended in a draw"
       elsif won?
         puts "Congratulations #{winner}!"
       end
-    end
   end
 
 end
