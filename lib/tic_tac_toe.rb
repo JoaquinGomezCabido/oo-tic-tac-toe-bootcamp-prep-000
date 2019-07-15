@@ -54,7 +54,6 @@ class TicTacToe
       puts "Please select a position between 1-9"
       input = gets.strip
     end
-    draw?
   end
 
   def turn_count
