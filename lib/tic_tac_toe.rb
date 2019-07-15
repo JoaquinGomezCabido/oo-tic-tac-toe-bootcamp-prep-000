@@ -101,7 +101,6 @@ class TicTacToe
     end
 
     won? ? puts "Congratulations #{winner}!" : puts "The game ended in a draw"
-    end
   end
 
 end
